@@ -1,10 +1,10 @@
 # Setup site SEO: https://github.com/doamatto/nano/jekylltemplate/Configuring-SEO
 lang: en
-title: ""
-description: ""
-author: ""
-url: ""
-favicon: ""
+title: "Epic4809"
+description: "Now, this is epic."
+author: "Epic4809"
+url: "epic4809.site"
+favicon: "/assets/logo.svg"
 
 # Setup site verifications: https://github.com/doamatto/jekylltemplate/wiki/Site-Verifications
 alexaverify: ""
@@ -17,6 +17,14 @@ pinverify: ""
 plingverify: ""
 wotverify: ""
 yandexverify: ""
+
+nav:
+  - title: "About"
+    url: "/about"
+  - title: "Projects"
+    url: "/projects"
+  - title: "Contact"
+    url: "/contact"
 
 # Setup site analytics: https://github.com/doamatto/jekylltemplate/wiki/Analytics
 simpleanalytics: false 
