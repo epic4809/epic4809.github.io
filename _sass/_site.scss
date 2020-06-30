@@ -1,0 +1,121 @@
+// Document Prep
+body {
+  margin: 1em 10em;
+  @media(max-device-width: 480px) { margin: 1em 1em; }
+  font-family: 'Inter', sans-serif;
+  background: #1A68DD;
+  color: #fff;
+}
+
+// Navigation
+.nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  cursor: default;
+  padding-left: 4px; // Gives a little space in while not scrunching "About Us" text
+  * {
+    cursor: default;
+  }
+  h1 {
+    flex: 0 0 auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    a {
+      display: block;
+      :hover { cursor: pointer; }
+    }
+    img { 
+      display: block;
+      border: none !important;
+    }
+  }
+  a {
+    color: #000;
+    @media (prefers-color-scheme: dark) { color: #fff; }
+    background: none;
+  }
+  a:hover {
+    color: #8887e4;
+    transition: color 200ms ease-in-out;
+  }
+}
+nav {
+  ul {
+    flex: 0 0 auto;
+    text-align: left;
+    display: flex;
+    margin-top: 2em;
+    li {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      :first-child { margin-left: 0; }
+      a {
+        cursor: pointer;
+        padding: 0 0.8em;
+        font-size: .9em;
+        text-decoration: none;
+        color: #fff;
+      }
+      a:hover {
+        color: #8887e4;
+        text-decoration: underline;
+        transition: all 250ms ease;
+      }
+      :last-child { a { padding-right: 0; } }
+    }
+  }
+}
+
+// Header
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  h1 {
+    margin: -.3em 0;
+  }
+  img {
+    width: 256px;
+    height: 256px;
+    @media(max-device-width: 480px) {
+      width: 128px;
+      height: 128px;
+    }
+  }
+}
+
+// Containers (useful for the page layout)
+.container {
+  img {
+    max-width: 340px;
+    display: block;
+    margin: auto;
+  } // Ensures pictures don't get too large and fall off the page
+  ul li a, a { color: #fff; }
+  ul li strong a { text-decoration: none; }
+}
+
+// Footer
+footer {
+  color: #fff;
+  font-size: 1.25vh;
+  text-align: center;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  a:hover { text-decoration: underline; }
+}
+
+::selection { 
+  background: #000;
+}
