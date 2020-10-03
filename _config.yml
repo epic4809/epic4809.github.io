@@ -3,7 +3,7 @@ lang: en
 title: "Epic4809"
 description: "Now, this is epic."
 author: "Epic4809"
-url: "epic4809.site"
+url: "epic4809.github.io"
 favicon: "/assets/logo.svg"
 
 # Setup site verifications: https://github.com/doamatto/jekylltemplate/wiki/Site-Verifications
@@ -15,7 +15,7 @@ nortonverify: ""
 specificverify: ""
 pinverify: ""
 plingverify: ""
-wotverify: ""
+wotverify: "69f4a6d3689903e1c66c"
 yandexverify: ""
 
 nav:
