@@ -5,7 +5,9 @@ title: 'Bashing Random Tech Sh*t'
 
 ## {{page.title}}
 
-I used to host a podcast with my mate, [Matt](https://doamatto.xyz), where we find tech to bash that people use everyday. Every week (or so), you could end up either learning a thing or two about tech or laughing at deliriously-fuelled comedy.
+I used to host a podcast with my mate, [Matt](https://maatt.fr), where we find tech to bash that people use everyday. Every week (or so), you could end up either learning a thing or two about tech or laughing at deliriously-fuelled comedy.
+
+None of the links below work anymore™, but I left them for posterity sake.
 
 **[Listen on Pocket Casts](https://pca.st/Hj12)**
 
